@@ -28,7 +28,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:onClick="onmove"
-            android:text="Move" />
+            android:text="Move it" />
 
         <EditText
             android:id="@+id/et2"
