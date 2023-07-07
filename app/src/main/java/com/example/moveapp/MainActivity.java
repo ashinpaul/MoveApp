@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         e2=(EditText) findViewById(R.id.et2);
         String str =e1.getText().toString();
         if (str =="' '" || str.length()==0){
-            Toast.makeText(this, "Enter value", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Enter value to move", Toast.LENGTH_SHORT).show();
         }
         else {
             e2.setText(str);
